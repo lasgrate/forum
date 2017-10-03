@@ -1,0 +1,9 @@
+
+// Storage for all patterns etc.
+
+@mixin flex {
+  display: flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+}

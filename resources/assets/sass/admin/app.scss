@@ -1,0 +1,122 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700");
+
+// Variables
+@import "../variables";
+
+// Bootstrap
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
+// Patterns
+@import "../patterns";
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+#header {
+  min-height: 0;
+  background: #fff;
+  border-bottom: 1px solid #e5e5e5;
+  margin: 0;
+  padding: 0;
+}
+
+#header .nav > li {
+  float: left;
+}
+
+#header .nav > li > a {
+  padding: 3px 16px;
+  line-height: 38px;
+  cursor: pointer;
+  color: #6D6D6D;
+}
+
+#header .nav.pull-right > li > a {
+  border-left: 1px solid #E1E1E1;
+}
+
+#header .nav.pull-left > li > a {
+  border-right: 1px solid #E1E1E1;
+}
+
+#header .dropdown-menu {
+  min-width: 250px;
+}
+
+#header .dropdown-menu > a {
+  display: block;
+  padding: 3px 20px;
+  clear: both;
+  font-weight: normal;
+  line-height: 1.42857;
+  color: #333;
+  white-space: nowrap;
+  overflow: auto;
+}
+
+#header .dropdown-menu > a:hover {
+  text-decoration: none;
+  background-color: #e6e6e6;
+}
+
+tbody > tr > td {
+  vertical-align: unset !important;
+}
+
+.page-header {
+  margin: 10px 0;
+}
+
+.page-header h1 {
+  margin: 0;
+}
+
+.panel-heading h3.panel-title .fa {
+  margin-right: 10px;
+}
+
+aside {
+  margin-top: 10px;
+}
+
+.fa.fa-minus-circle {
+  color: brown;
+}
+
+.messages_list .list-group {
+  color: #636b6f;
+  text-decoration: none;
+  display: block;
+}
+
+.messages_list .list-group-item {
+  background-color: white;
+}
+
+.messages_list .list-group-item:hover {
+  background-color: #f4f4f4;
+}
+
+.messages_list span.enable,
+.messages_list span.new {
+  color: #3097D1;
+}
+
+.messages_list span.disable,
+.messages_list span.fake  {
+  color: #78341a;
+}
+
+.messages_list .name,
+.messages_list .new {
+  display: inline-block;
+}
+
+.messages_list .new,
+.messages_list .fake {
+  margin-left: 5px;
+  font-size: 15px
+}
